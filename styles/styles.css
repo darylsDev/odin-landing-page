@@ -1,4 +1,4 @@
-* {border: 1px solid blue}
+/* * {border: 1px solid blue} */
 
 .header, .hero, .info, .text
 {
@@ -136,6 +136,40 @@ button {
     text-align: right;
 }
 
+.banner {
+    background-color: #3882F6;
+    margin: 100px auto;
+    max-width: 1000px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+
+.banner .banner-text {
+    color: #E5E7EB;
+}
+
+.action-title {
+    font-weight: 900;
+}
+
+.banner .banner-text p {
+    margin: 0;
+}
+
+.banner button {
+    border: 2px solid #E5E7EB
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 10px;
+}
 
 
 
